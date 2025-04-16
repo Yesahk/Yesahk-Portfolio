@@ -41,10 +41,12 @@ const Contact = () => {
           
           <div className="space-y-6">
             <div className="flex items-start">
-              <Mail className="w-6 h-6 text-blue-600 mt-1" />
+            <a href='https://www.gmail.com/'><Mail className="w-6 h-6 text-blue-600 mt-1" />
+              </a>
               <div className="ml-4">
                 <h4 className="font-medium">Email</h4>
-                <p className="text-gray-600">yesahkabera@gmail.com</p>
+                <p className="text-gray-600">Yesahkabera@gmail.com <br></br> Yesahkergano1272@gmail.com</p>
+                
               </div>
             </div>
             
@@ -58,6 +60,7 @@ const Contact = () => {
             
             <div className="flex items-start">
               <MapPin className="w-6 h-6 text-blue-600 mt-1" />
+              
               <div className="ml-4">
                 <h4 className="font-medium">Location</h4>
                 <p className="text-gray-600">Stone Mountain, GA</p>
@@ -69,7 +72,7 @@ const Contact = () => {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-              Name
+              Full Name
             </label>
             <input
               type="text"
@@ -79,6 +82,7 @@ const Contact = () => {
               onChange={handleChange}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               required
+              placeholder='Ex: Isaac Abraham'
             />
           </div>
           
@@ -94,6 +98,7 @@ const Contact = () => {
               onChange={handleChange}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               required
+              placeholder='Example@gmail.com'
             />
           </div>
           
@@ -109,6 +114,7 @@ const Contact = () => {
               rows={4}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               required
+              placeholder='Write your message here.....'
             />
           </div>
           
