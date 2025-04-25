@@ -4,10 +4,10 @@ import { Github, ExternalLink } from 'lucide-react';
 const projects = [
   {
     title: 'Movie Website',
-    description: 'Personal movie website, different movie type included with description',
+    description: 'Personal movie website, different movie type included with description and user review.',
     image: 'https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&q=80',
-    technologies: ['Java', 'SpringBoot', 'HTLM', 'CSS', 'Javascript'],
-    github: 'https://github.com',
+    technologies: ['Java', 'SpringBoot','React', 'HTLM', 'CSS', 'Javascript'],
+    github: 'https://github.com/Yesahk/MyCineVerse',
     demo: 'https://demo.com'
   },
   {
@@ -19,12 +19,13 @@ const projects = [
     demo: 'https://demo.com'
   },
   {
-    title: 'Cloud Storage Service',
-    description: 'A scalable cloud storage service with secure file sharing and version control capabilities.',
+    title: 'Event Management',
+    description: 'User friendly website to plan, organize, and manage events online.',
     image: 'https://images.unsplash.com/photo-1544717297-fa95b6ee9643?auto=format&fit=crop&q=80',
-    technologies: ['Java', 'Spring Boot', 'AWS S3', 'MySQL'],
-    github: 'https://github.com',
-    demo: 'https://demo.com'
+    technologies: ['Java', 'Spring Boot', 'PostgreSQL','React'],
+    github: 'https://github.com/Yesahk/Event-Management',
+    demo: 'http://localhost:5175/'
+    
   }
 ];
 

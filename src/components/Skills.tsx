@@ -23,7 +23,9 @@ const skillCategories = [
      
       { name: 'Jenkins', level: 60 },
       { name: 'AWS', level: 65 },
-      { name: 'RESTful APIs', level: 85 }
+      { name: 'RESTful APIs', level: 85 },
+      { name: 'React', level: 80},
+      { name: 'Angular', level: 70}
     ]
   }
 ];
