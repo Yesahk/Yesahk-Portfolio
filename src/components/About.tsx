@@ -8,12 +8,9 @@ const About = () => {
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <img
-              src="https://i.im.ge/2025/04/26/vI2G54.personalpic.jpeg"
-              
-              alt="Professional headshot"
-              className="rounded-lg shadow-xl"
-            />
+            <img src="personalpic.jpeg"   
+            alt="Professional headshot" />
+
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-600 rounded-lg -z-10"></div>
           </div>
           
