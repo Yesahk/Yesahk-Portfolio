@@ -24,7 +24,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1544717297-fa95b6ee9643?auto=format&fit=crop&q=80',
     technologies: ['Java', 'Spring Boot', 'PostgreSQL','React'],
     github: 'https://github.com/Yesahk/Event-Management',
-    demo: 'http://localhost:5175/'
+    demo: 'https://yesahk.github.io/Event-Management/'
     
   }
 ];
@@ -69,7 +69,13 @@ const Portfolio = () => {
                   <Github size={20} className="mr-1" />
                   GitHub
                 </a>
-                
+                <a
+                  href={project.demo}
+                  className="flex items-center text-gray-600 hover:text-blue-600 transition-colors"
+                >
+                  <ExternalLink size={20} className="mr-1" />
+                 Website link
+                </a>
               </div>
             </div>
           </div>
