@@ -8,7 +8,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&q=80',
     technologies: ['Java', 'SpringBoot','React', 'HTLM', 'CSS', 'Javascript'],
     github: 'https://github.com/Yesahk/MyCineVerse',
-    demo: 'https://demo.com'
+    demo: 'https://yesahk.github.io/Event-Management/'
   },
   {
     title: 'Hospital Management System',
@@ -16,7 +16,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80',
     technologies: ['Java', 'SpringBoot', 'MySQL', 'React'],
     github: 'https://github.com/codewithbala/CRMSpringReactApril2024',
-    demo: 'https://demo.com'
+    demo: 'https://yesahk.github.io/Event-Management/'
   },
   {
     title: 'Event Management',
